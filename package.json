@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-filepicker",
+  "version": "1.0.0",
+  "description": "Cordova plugin for picking files and returning their URI",
+  "main": "www/FilePicker.js",
+  "keywords": ["cordova", "plugin", "file", "picker"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
