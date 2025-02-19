@@ -1,4 +1,4 @@
-# file-picker-cordova
+# cordova-plugin-filepicker
 The file picker using cordova plugin
 
 # Cordova File Picker Plugin
