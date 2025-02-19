@@ -1,0 +1,14 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-filepicker"
+        version="1.0.0">
+    <name>FilePicker</name>
+    <js-module src="www/FilePicker.js" name="FilePicker">
+        <clobbers target="window.FilePicker"/>
+    </js-module>
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        </config-file>
+        <source-file src="src/android/FilePicker.java" target-dir="src/com/example/filepicker"/>
+    </platform>
+</plugin>
